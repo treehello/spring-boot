@@ -1,0 +1,82 @@
+{
+  "groups": [
+    {
+      "name": "dog",
+      "type": "com.hq.pojo.Dog",
+      "sourceType": "com.hq.pojo.Dog"
+    },
+    {
+      "name": "person",
+      "type": "com.hq.pojo.Person",
+      "sourceType": "com.hq.pojo.Person"
+    },
+    {
+      "name": "score",
+      "type": "com.hq.pojo.Score",
+      "sourceType": "com.hq.pojo.Score"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dog.breed",
+      "type": "java.lang.String",
+      "sourceType": "com.hq.pojo.Dog"
+    },
+    {
+      "name": "dog.origin",
+      "type": "java.lang.String",
+      "sourceType": "com.hq.pojo.Dog"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hq.pojo.Person"
+    },
+    {
+      "name": "person.birthday",
+      "type": "java.util.Date",
+      "sourceType": "com.hq.pojo.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.hq.pojo.Dog",
+      "sourceType": "com.hq.pojo.Person"
+    },
+    {
+      "name": "person.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.hq.pojo.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.hq.pojo.Person"
+    },
+    {
+      "name": "person.object-list",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.hq.pojo.Person"
+    },
+    {
+      "name": "person.strings",
+      "type": "java.lang.String[]",
+      "sourceType": "com.hq.pojo.Person"
+    },
+    {
+      "name": "score.course-name",
+      "type": "java.lang.String",
+      "sourceType": "com.hq.pojo.Score"
+    },
+    {
+      "name": "score.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hq.pojo.Score"
+    },
+    {
+      "name": "score.score",
+      "type": "java.lang.Double",
+      "sourceType": "com.hq.pojo.Score"
+    }
+  ],
+  "hints": []
+}

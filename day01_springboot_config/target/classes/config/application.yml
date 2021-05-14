@@ -1,0 +1,49 @@
+
+# springBoot会默认扫描 resources/config/ 目录下的配置文件
+
+server:
+  port: 8080
+
+spring:
+  profiles: # 用于指定当前文档块的运行环境标识，默认为 default
+    active: [dev , common] #指定激活指定的环境配置(可以指定多个)，激活后，第一个文档块内容失效;不指定时，默认运行第一个文档块
+
+
+# 在yml文件中，可以使用 '---'用于分隔不同的profiles（）文档块，多个文档块之间的配置互不冲突。
+
+---
+
+# 与Person类进行绑定。
+person:
+  name: 张三
+  age: 20
+  # 注意：日期只能使用'/'分隔，不能使用'-'。否则在启动springBoot主程序时会报错。
+  birthday: 2019/02/11 11:30:32
+  objectList: [元素1,元素二,元素3,]
+  strings:
+    - hello
+    - world
+  map:
+    map01: {breed: 拉布拉多, origin: 加拿大}
+    map02: hello world
+  dog:
+    breed: 中华田园犬
+    origin: 中国
+
+spring:
+  profiles: common #指定环境标识为"common",相当于"application-{profile}.properties/yml"中的profile
+
+
+---
+server:
+  port: 8082
+
+spring:
+  profiles: dev  #指定环境标识为"dev",相当于"application-{profile}.properties/yml"中的profile
+
+
+---
+server:
+  port: 8083
+spring:
+  profiles: prod #指定环境标识为"prod",相当于"application-{profile}.properties/yml"中的profile

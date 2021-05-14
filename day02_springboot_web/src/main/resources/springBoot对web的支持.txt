@@ -1,0 +1,4 @@
+1. springBoot是不支持jsp页面的，所以只能使用html。
+2. springBoot推荐使用 thymeleaf 模板引擎 渲染html页面。
+3. 所有的html页面都必须放在resources/templates/ 目录下
+4. 所有的静态资源都必须放在resources/static/ 目录下

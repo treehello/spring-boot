@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/day02_springboot_log" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/day01_springboot_start/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_springboot_log/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_springboot_config/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_springboot_web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" />
+</project>
